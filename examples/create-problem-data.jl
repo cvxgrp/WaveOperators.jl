@@ -9,7 +9,7 @@ using WaveOperators
 using Plots
 
 
-#= 
+#=
 ## Constructing the design region
 First we set basic parameters of our design region and the
 simulation grid.
