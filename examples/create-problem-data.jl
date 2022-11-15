@@ -115,12 +115,12 @@ We can use the tools in `PhysicalBounds.jl` to create a design. Below, we show
 how to use the optimal value of the optimization problem to set the design from
 our variable vector $\theta$.
 =#
-# Usually θ would be replaced by a real design. Here we use a 'random' design.
-# See PhysicalBounds.jl for a complete example.
+## Usually θ would be replaced by a real design. Here we use a 'random' design.
+## See PhysicalBounds.jl for a complete example.
 designidx = getindices(g, design_region)
 θ = rand(length(designidx))
 
-# Set the contrast to be the design's
+## Set the contrast to be the design's
 g.contrast[designidx] .*= θ
 heatmap(g.contrast, title="Design Region")
 
