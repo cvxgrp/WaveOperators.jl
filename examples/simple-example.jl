@@ -1,5 +1,5 @@
 #=
-# Simple Example
+# Simple example
 This is a very simple example showing how to create a design region
 and add an input field.
 =#
@@ -24,7 +24,7 @@ heatmap(g.contrast, title="Design Region")
 
 
 #=
-Next, we add an excitation and compute the resulting field.
+Next, we add an excitation (here it is the second-order mode) and compute the resulting field.
 =#
 ## Add excitation
 mode_input_position = 0
